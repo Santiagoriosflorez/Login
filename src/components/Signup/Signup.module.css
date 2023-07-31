@@ -1,0 +1,89 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.container label {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #313131;
+}
+.innerBox {
+  min-width: 480px;
+  height: fit-content;
+  width: fit-content;
+  background: linear-gradient(rgb(73, 222, 235), rgb(171, 209, 253));
+  padding: 80px 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.footer button {
+  align-items: center;
+  margin: -10px 95px;
+  margin-bottom: 10px;
+  outline: none;
+  border: none;
+  background-color: #198ae7;
+  background-image: linear-gradient(
+      to bottom,
+      rgb(157, 221, 218),
+      rgb(140, 190, 219)
+    ),
+    linear-gradient(#b8b3b3, #999);
+  color: #fff7f7;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 15px;
+  width: 50%;
+  transition: 100ms;
+  cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer .error {
+    margin: -10px;
+    font-weight: bold;
+    font-size: 0.975rem;
+    color:#ff3300;
+    text-align: center;
+}
+
+.container input {
+  border-radius: 5px;
+  border: 1px solid #dddddd;
+  outline: none;
+  padding: 10px 15px;
+  color: #000;
+}
+.container input:hover {
+  border-color: #ccc;
+}
+.container input:focus {
+  border-color: #9900ff;
+}
+
+.footer p span a {
+  font-weight: bold;
+  color: hwb(0 100% 0%);
+  letter-spacing: 2px;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+
+.footer p {
+  font-weight: 700;
+  color: #0f0f0f;
+  font-size: 1.2rem;
+  font-family: "Times New Roman", Times, serif;
+}
